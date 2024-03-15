@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TO-DO List</title>
+<style>
+    /* Styles for TO-DO List */
+    .todo-container {
+        max-width: 600px;
+        margin: 20px auto;
+        font-family: Arial, sans-serif;
+    }
+    .todo-category {
+        margin-bottom: 10px;
+    }
+    .todo-category h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+        color: #333;
+    }
+    .todo-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .todo-item input[type="checkbox"] {
+        margin-right: 10px;
+    }
+    .todo-item label {
+        font-size: 16px;
+    }
+</style>
+</head>
+<body>
+    <div class="todo-container">
+        <div class="todo-category">
+            <h2>High Priority</h2>
+            <div class="todo-item">
+                <input type="checkbox" id="task1">
+                <label for="task1">Complete landing page design</label>
+                <span class="deadline">Deadline: March 30, 2024</span>
+                <span class="label">Label: Design</span>
+            </div>
+            <!-- Add more high-priority tasks here -->
+        </div>
+        <div class="todo-category">
+            <h2>Medium Priority</h2>
+            <div class="todo-item">
+                <input type="checkbox" id="task2">
+                <label for="task2">Implement responsive layout</label>
+                <span class="deadline">Deadline: April 10, 2024</span>
+                <span class="label">Label: Development</span>
+            </div>
+            <!-- Add more medium-priority tasks here -->
+        </div>
+        <div class="todo-category">
+            <h2>Low Priority</h2>
+            <div class="todo-item">
+                <input type="checkbox" id="task3">
+                <label for="task3">Optimize images for faster loading</label>
+                <span class="deadline">Deadline: Ongoing</span>
+                <span class="label">Label: Optimization</span>
+            </div>
+            <!-- Add more low-priority tasks here -->
+        </div>
+    </div>
+</body>
+</html>
